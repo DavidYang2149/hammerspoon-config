@@ -1,6 +1,6 @@
 hs.alert.show('Hammer Spoon Online')
 hs.hotkey.bind({'option', 'cmd'}, 'R', hs.reload)
-hs.hotkey.bind({'shift', 'option'}, 'C', function()
+hs.hotkey.bind({'shift', 'option'}, 'G', function()
     hs.application.launchOrFocus('Google Chrome')
 end)
 hs.hotkey.bind({'shift', 'option'}, 'T', function()
